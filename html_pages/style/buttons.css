@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "mainFontNormal";
+  src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontSBold";
+  src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontBold";
+  src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "contactFont";
+  src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+.section-buttons {
+  height: 19px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  color: #021a4f;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+}
+
+.section-buttons:hover {
+  color: #e4c800;
+}
+
+.cont-apply-btn {
+  padding: 0;
+}
+.cont-apply-btn .apply-btn-bg {
+  width: 453px;
+  height: 105px;
+  background-color: #021a4e;
+  border: none;
+  padding: 24px 52px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e4c800;
+  text-transform: uppercase;
+}
+.cont-apply-btn .apply-btn-bg:hover {
+  color: #ffffff;
+}
+
+.submit-btn {
+  width: 149px;
+  height: 49px;
+  padding: 14px 40px;
+  background-color: #021a4e;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e4c800;
+  font-family: "contactFont", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.submit-btn:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  .cont-apply-btn .apply-btn-bg {
+    width: 280px;
+    height: 70px;
+    font-size: 30px;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=buttons.css.map */

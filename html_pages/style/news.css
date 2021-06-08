@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "mainFontNormal";
+  src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontSBold";
+  src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontBold";
+  src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "contactFont";
+  src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body main h1 {
+  background-color: rgba(2, 26, 78, 0.85);
+  text-align: center;
+  font-family: "mainFontSBold", sans-serif;
+  font-weight: 600;
+  color: #e4c800;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+body main .card {
+  margin: 30px 0;
+}
+body main .card .card-body .btn-primary {
+  background-color: #021a4e;
+  color: #e4c800;
+}
+body main .news-title {
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #021a4f;
+  margin: 10px 0;
+}
+body main .news-title:hover {
+  color: #e4c800;
+}
+body main a:hover {
+  text-decoration: none;
+}
+body main h2 {
+  text-align: center;
+  font-family: "mainFontSBold", sans-serif;
+  font-weight: 600;
+  color: #021a4e;
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=news.css.map */

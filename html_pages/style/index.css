@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "mainFontNormal";
+  src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontSBold";
+  src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontBold";
+  src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "contactFont";
+  src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body main .slide .carousel-indicators .circ {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+body main .slide .carousel-inner .container-img {
+  position: relative;
+}
+body main .slide .carousel-inner .container-img .inside-hero {
+  width: 34.6527%;
+  max-width: 525px;
+  background-color: rgba(2, 26, 78, 0.8);
+  /* opacity: 0.5; */
+  position: absolute;
+  right: 12.5694%;
+  /* 12.5694 equal 181px */
+  top: 21.5929%;
+  /* 21.5929 equal 122px */
+  padding: 4.4444% 3.3333%;
+  /* padding: 19.9% 9.8% 19.8% 9.8%; */
+  object-fit: contain;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+body main .slide .carousel-inner .container-img .inside-hero p {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "TrajanPro";
+  font-size: 40px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body main .slide a {
+  width: 5%;
+}
+body main .slide a .arrow {
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+body main .slide a .arrow:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+body main .after-slider {
+  display: none;
+}
+body main .container .news-images-section {
+  margin: 80px 0;
+}
+body main .container .news-images-section .row .first-row-img {
+  margin-bottom: 30px;
+}
+body main .container .news-images-section .row .second-row-img {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+body main .container .news-images-section .row div .news-img1 {
+  margin-bottom: 20px;
+}
+body main .container .news-images-section .row div .title-and-img .news-sm {
+  position: relative;
+  width: 254.5px;
+  height: 263px;
+  margin: auto;
+}
+body main .container .news-images-section .row div .title-and-img .news-images {
+  width: 254.5px;
+  height: 263px;
+}
+body main .container .news-images-section .row div .title-and-img .title-for-img {
+  position: absolute;
+  width: 100%;
+  height: 51px;
+  background-color: rgba(2, 26, 78, 0.8);
+  bottom: 0;
+  left: 0;
+  color: #ffffff;
+  padding-top: 14.5px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  overflow: hidden;
+}
+body main .container .news-images-section .row div .title-and-img .title-for-img a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body main .container .news-images-section .row .news-section .news {
+  background-color: #f3f3f3;
+  padding: 20px 20px;
+}
+body main .container .news-images-section .row .news-section .news .date {
+  height: 23px;
+  color: #021a4f;
+  font-family: "mainFontNormal", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+}
+body main .container .news-images-section .row .news-section .news .paragraph {
+  width: 100%;
+  height: 52px;
+  margin: 0 2px 15px 4px;
+  font-family: "mainFontNormal", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body main .container .news-images-section .row .news-section .news hr {
+  margin: 20px 0;
+}
+body main .container .news-images-section .row .news-section .news a:hover {
+  text-decoration: none;
+}
+body main .records {
+  background-color: #021a4e;
+  margin-bottom: 80px;
+}
+body main .records .cont-records {
+  padding: 80px 0;
+}
+body main .records .row div .number-records {
+  height: 90px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 66px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.65px;
+  text-align: center;
+  margin: 8.44% 0;
+  color: #e4c800;
+}
+body main .records .row div .records-sentence {
+  width: 81.25%;
+  height: 66px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .records .row div .records-sentence h3 {
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.48px;
+  text-align: center;
+  color: #e4c800;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+body main .records .row .horizontal-line {
+  background-color: #e4c800;
+}
+body main .events-container {
+  margin-bottom: 80px;
+}
+body main .events-container .container .card-deck .card {
+  position: relative;
+}
+body main .events-container .container .card-deck .card .card-img-top:hover {
+  opacity: 0.8;
+}
+body main .events-container .container .card-deck .card .events-date {
+  position: absolute;
+  top: 10px;
+  right: 10.8px;
+}
+body main .events-container .container .card-deck .card .events-date img {
+  width: 75.2px;
+  height: 71px;
+}
+body main .events-container .container .card-deck .card .events-date .number-date {
+  position: absolute;
+  top: 29px;
+  right: 25.6px;
+  width: 22px;
+  height: 19px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  color: #021a4f;
+}
+body main .events-container .container .card-deck .card .events-date .month-date {
+  position: absolute;
+  top: 44px;
+  left: 17.1px;
+  height: 19px;
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #021a4f;
+  text-transform: capitalize;
+}
+body main .events-container .container .card-deck .card .events-date .short-month {
+  position: absolute;
+  top: 44px;
+  left: 24px;
+}
+body main .events-container .container .card-deck .card .card-body {
+  padding: 15px 20px;
+}
+body main .events-container .container .card-deck .card .card-body .events-header {
+  position: relative;
+  height: 23px;
+  margin: 0 15px 10px 0;
+  font-family: "mainFontNormal", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: #021a4f;
+  padding: 0 15px 0 0;
+}
+body main .events-container .container .card-deck .card .card-body .events-header span {
+  font-size: 0;
+}
+body main .events-container .container .card-deck .card .card-body .events-header::after {
+  content: "";
+  border: solid 1px #979797;
+  /* height: 262px; */
+  height: 19px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body main .events-container .container .card-deck .card .card-body a:hover {
+  text-decoration: none;
+}
+body main .events-container .container .card-deck .card .card-body .events-desc {
+  height: 78px;
+  font-family: "mainFontNormal", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+body main .events-container .container .card-deck .card .card-body .last-desc {
+  margin-bottom: 10px;
+}
+body main .bk-apply {
+  width: 100%;
+  height: 549px;
+  background-image: url("../img/apply.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+body main .bk-apply .container .row .apply-desc {
+  width: 1014px;
+  height: 184px;
+  margin: 100px 0 60px;
+  text-shadow: 0 2px 4px rgba(83, 83, 83, 0.48);
+  font-family: "mainFontBold", sans-serif;
+  font-size: 58px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: center;
+  color: #021a4f;
+}
+body main .contact-form {
+  margin-bottom: 80px;
+}
+body main .contact-form .container .row .cont-form {
+  background-color: #f7f7f7;
+  padding: 0 2px;
+}
+body main .contact-form .container .row .cont-form h2 {
+  height: 49px;
+  margin: 80px 0 30px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #021a4f;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+body main .contact-form .container .row .cont-form input {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+body main .contact-form .container .row .cont-form textarea {
+  margin-bottom: 30px;
+  border-radius: 0;
+}
+body main .contact-form .container .row .cont-form .cont-btn-form {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1049px) {
+  html body main .slide .carousel-inner .container-img .inside-hero {
+    display: none;
+    width: 250px;
+    height: 200px;
+  }
+  html body main .slide .arrow {
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+  }
+  html body main .after-slider {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: #021a4e;
+    color: #e4c800;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  html body main .bk-apply .container .row .apply-desc {
+    font-size: 40px;
+  }
+  html body main .bk-apply .container .row .cont-apply-btn .apply-btn-bg {
+    width: 280px;
+    height: 70px;
+    font-size: 30px;
+    padding: 0;
+  }
+  html body main .events-container .container .card-deck .card .card-body {
+    padding: 10px 10px;
+  }
+  html body main .events-container .container .card-deck .card .card-body span {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  html body main .events-container .container .card-deck .card .card-body .events-header {
+    margin: 0;
+    padding: 0 5px 0 0;
+    font-size: 11px;
+  }
+  html body main .events-container .container .card-deck .card .card-body .events-header::after {
+    content: "";
+    border: solid 1px #979797;
+    /* height: 262px; */
+    height: 11px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 834px) {
+  html body main .slide .carousel-inner .container-img .inside-hero {
+    width: 250px;
+    height: 200px;
+  }
+  html body main .bk-apply .container .row .apply-desc {
+    font-size: 40px;
+  }
+  html body main .bk-apply .container .row .cont-apply-btn .apply-btn-bg {
+    width: 280px;
+    height: 70px;
+    font-size: 30px;
+    padding: 0;
+  }
+  html body main .events-container .container .card-deck .card .card-body {
+    padding: 10px 10px;
+  }
+  html body main .events-container .container .card-deck .card .card-body span {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  html body main .events-container .container .card-deck .card .card-body .events-header {
+    margin: 0;
+    padding: 0 5px 0 0;
+    font-size: 11px;
+  }
+  html body main .events-container .container .card-deck .card .card-body .events-header::after {
+    content: "";
+    border: solid 1px #979797;
+    /* height: 262px; */
+    height: 11px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 667px) {
+  html body main .slide .carousel-inner .container-img .inside-hero {
+    display: none;
+  }
+  html body main .news-images-section .row .title-and-img .news-sm {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  html body main .news-images-section .row .title-and-img .news-sm a .news-images {
+    width: 100% !important;
+  }
+  html body main .bk-apply .container .row .apply-desc {
+    font-size: 35px;
+  }
+  html body main .contact-form .container .row .cont-form h2 {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

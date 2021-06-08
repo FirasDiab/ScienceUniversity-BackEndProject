@@ -1,0 +1,229 @@
+@import "variables";
+@import "fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  header {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 75px;
+        background-color: $secondary-color;
+        .logo-row{
+            padding: 0;
+            .logo {
+                width: 139px;
+                margin: 13px 0;
+            }
+        }
+        .open-menu {
+            display: none;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .close-menu {
+            display: none;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .social-media {
+            padding: 25px 0;
+            text-align: right;
+            .icons {
+                width: 15.2778%; /* equal 220px */
+                height: 25px;
+                margin: 25px 0 25px 68.1667%; /* 11.25 equal 162px */
+                padding: 0;
+                font-size: 0;
+                i {
+                    width: 23px;
+                    font-size: 25px;
+                    margin: 0 10px 0 0;
+                    background-color: transparent;
+                    color: $gray;
+                }
+                .fb {
+                    margin-right: 0;
+                }
+                .search {
+                    width: 25px;
+                    font-size: 25px;
+                    margin: 0 0 0 40px;
+                }
+            }
+            .btn-search {
+              background-color: $primary-color;
+              color: $secondary-color;
+            }
+            .btn-search:hover {
+              color: $third-color;
+            }
+        }
+    }
+    .cont-bk {
+        background-color: $primary-color
+    }
+    .navbar-container {
+        background-color: $primary-color;
+        .row {
+            .navbar-grid {
+                height: 39px;
+                padding: 10px 0;
+                background-color: $primary-color;
+                width: 100%;
+                .navbar-section {
+                    padding: 0;
+                    .navbar-section1 {
+                        ul {
+                            width: 91.6129%; /* 59.1667 equal 852px */ 
+                            margin: 0 4.1935% 0 4.1935%; /* 20.4167 equal 294px */
+                            li {
+                                a {
+                                    height: 19px;
+                                    font-family: $main-font-SBold;
+                                    font-size: 14px;
+                                    font-weight: $font-Sbold;
+                                    // font-stretch: normal;
+                                    // font-style: normal;
+                                    // line-height: normal;
+                                    letter-spacing: 0.2px;
+                                    text-align: center;
+                                    color: $secondary-color;
+                                    padding: 0;
+                                    text-transform: uppercase;
+                                }
+                                a:hover {
+                                    color: $third-color;
+                                    text-decoration: none;
+                                    opacity: 0.9;
+                                    transition: 0.5s;
+                                }
+                            }
+                            .About {
+                                margin: 0 73.5px 0 0;
+                            }
+                            .Academics {
+                                margin: 0 72px 0 0;
+                            }
+                            .Admissions {
+                                margin: 0 65px 0 0;
+                            }
+                            .International {
+                                margin: 0 66.5px 0 0;
+                            }
+                            .Events {
+                                margin: 0 70px 0 0;
+                            }
+                            .Contact-us {
+                                margin: 0 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+
+
+html {
+  @media screen and (max-width: $large) {
+    body {
+        header {
+   
+      }
+    } 
+  } 
+  @media screen and (max-width: $large) {
+    body {
+      .navbar-section{
+        .nav-small {
+          .logo-row {
+            .logo {
+              margin: 0;
+            }
+          }
+        }
+      }
+    } 
+  } 
+  
+  @media screen and (max-width: $medium) {
+    body {
+      header {
+        .header {
+          display: none;  
+          .row {
+            .logo-row {
+              .logo {
+                width: 139px;
+                height: 48px;
+                margin-left: 20px;
+              }
+            }
+            .social-media {
+              display: none;
+            }
+          }
+        }
+        .navbar-container {
+            .row {
+              display: none;  
+              .navbar-grid {
+                  display: none;
+              }
+            }
+        }
+        .nav-small {
+          display: block !important;
+          max-width: 100%;
+          color: $secondary-color;
+          padding: 8px 0;
+          .logo-row {
+              .logo {
+                  width: 139px;
+                  height: 48px;
+                  margin: 5px 0;
+              }
+          }
+          button {
+            padding: 0;
+            .fa-bars {
+              font-size: 35px;
+              color: $secondary-color;
+            }
+          }
+          .navbar-section1 {
+              ul {
+                  li {
+                      .nav-link {
+                          color: white;
+                      }
+                      .nav-link:hover {
+                          background-color: $secondary-color;
+                          color: $primary-color;
+                      }
+                  }
+                  .icons-for-sm {
+                    a {
+                      i {
+                        color: $secondary-color;
+                        font-size: 20px;
+                        margin-right: 5px;
+                      }
+                    }
+                  }
+              }
+          }
+      }
+      }
+    }
+  }
+}

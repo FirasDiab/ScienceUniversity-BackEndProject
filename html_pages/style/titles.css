@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "mainFontNormal";
+  src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontSBold";
+  src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontBold";
+  src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "contactFont";
+  src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+.main-titles {
+  width: 140px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #021a4f;
+  text-decoration: underline;
+}
+
+.main-titles:hover {
+  color: #e4c800;
+}
+
+.news-word {
+  margin-bottom: 30px;
+}
+
+.events-word {
+  height: 49px;
+  margin: 0 auto 30px;
+}
+
+.for-events-news-word:hover {
+  text-decoration: none;
+}
+
+.sub-titles {
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #021a4f;
+  margin: 10px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.sub-titles:hover {
+  color: #e4c800;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none i !important;
+}
+
+/*# sourceMappingURL=titles.css.map */

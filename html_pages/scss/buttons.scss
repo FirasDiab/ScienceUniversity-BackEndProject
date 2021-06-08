@@ -1,0 +1,84 @@
+@import "variables";
+@import "fonts";
+
+
+  .section-buttons {
+    height: 19px;
+    font-family: $main-font-Bold;
+    font-size: 14px;
+    font-weight: $font-bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.35px;
+    color: $news-color;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+  }
+
+  .section-buttons:hover {
+  color: $third-color;
+  }
+
+  .cont-apply-btn {
+    padding: 0;
+    .apply-btn-bg {
+       width: 453px;
+       height: 105px;
+       background-color: $primary-color;
+       border: none;
+      padding: 24px 52px;
+      font-family: $main-font-Bold;
+      font-size: 54px;
+      font-weight: $font-bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.06;
+      letter-spacing: normal;
+      text-align: center;
+      color: $third-color;
+      text-transform: uppercase;
+    }
+    .apply-btn-bg:hover {
+      color: $secondary-color;
+    }
+  }
+
+  .submit-btn {
+    width: 149px;
+    height: 49px;
+    padding: 14px 40px;
+    background-color: $primary-color;
+    text-align: center;
+    text-transform: uppercase;
+    color: $third-color;
+    font-family: $contact-btn-font;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .submit-btn:hover {
+    color: $secondary-color;
+  }
+
+
+  @media screen and (max-width: $medium) {
+    .cont-apply-btn {
+      .apply-btn-bg {
+        width: 280px;
+        height: 70px;
+        font-size: 30px;
+        padding: 0;
+        }
+    }
+  }
+
+  @media screen and (max-width: $small) {
+
+  }
+
+

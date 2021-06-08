@@ -1,0 +1,57 @@
+@import "variables";
+@import "fonts";
+
+
+.main-titles {
+  width: 140px;
+  font-family: $main-font-Bold;
+  font-size: 36px;  
+  font-weight: $font-bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: $news-color;
+  text-decoration: underline;
+}
+.main-titles:hover {
+  color: $third-color;
+}
+
+.news-word {
+  margin-bottom: 30px;
+}
+
+.events-word {
+  height: 49px;
+  margin: 0 auto 30px;
+}
+.for-events-news-word:hover {
+  text-decoration: none;
+}
+
+
+.sub-titles {
+    font-family: $main-font-SBold;
+    font-size: 16px;
+    font-weight: $font-Sbold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: $news-color;
+    margin: 10px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.sub-titles:hover {
+    color: $third-color;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none i !important;
+}

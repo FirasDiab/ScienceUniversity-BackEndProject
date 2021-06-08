@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'mainFontNormal';
+    src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+ }
+@font-face {
+    font-family: 'mainFontSBold';
+    src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: 'mainFontBold';
+    src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+ }
+ @font-face {
+   font-family: 'contactFont';
+   src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+$main-font-normal: 'mainFontNormal', sans-serif;
+$main-font-SBold: 'mainFontSBold', sans-serif;
+$main-font-Bold: 'mainFontBold', sans-serif;
+$hero-font: 'TrajanPro';
+$contact-btn-font : 'contactFont', sans-serif;
+$font-normal: normal;
+$font-Sbold: 600;
+$font-bold: bold;
+

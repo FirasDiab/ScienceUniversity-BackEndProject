@@ -1,0 +1,343 @@
+@font-face {
+  font-family: "mainFontNormal";
+  src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontSBold";
+  src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontBold";
+  src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "contactFont";
+  src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body footer {
+  background-color: #021a4e !important;
+}
+body footer .footer {
+  margin-left: 13.6805%;
+  /* 13.6805% equal 197px */
+  margin-right: 15.3819%;
+  /* 15.3819% equal 221.5px */
+  height: 383px;
+  padding: 0;
+}
+body footer .footer .row {
+  height: 383px;
+}
+body footer .footer .row .border-footer {
+  height: 100%;
+  max-height: 265px;
+  border-left: solid 1px #4d4d4d;
+  margin: 62px 0 6.39% 0;
+}
+body footer .footer .row .border-footer ul .titles-footer {
+  height: 22px;
+  color: #e4c800;
+  margin: 0 0 15px;
+  font-family: "mainFontBold", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+}
+body footer .footer .row .border-footer ul li {
+  height: 19px;
+  margin-top: 10px;
+}
+body footer .footer .row .border-footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.82px;
+  text-align: center;
+}
+body footer .footer .row .border-footer ul li a:hover {
+  color: #e4c800;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+body footer .footer .row .border-footer ul li .footer-information {
+  height: 28px;
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+body footer .footer .row .border-footer ul li i {
+  margin-right: 10px;
+}
+body footer .footer .row .border-footer ul li .phone1 {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  margin-bottom: 24.2px;
+}
+body footer .footer .row .border-footer ul li .phone2 {
+  width: 13.6px;
+  height: 13.6px;
+  font-size: 13.6px;
+  margin-bottom: 26.2px;
+}
+body footer .footer .row .border-footer ul li .msg1 {
+  width: 13px;
+  height: 10px;
+  font-size: 13px;
+  margin-bottom: 28.2px;
+}
+body footer .footer .row .border-footer ul li .msg2 {
+  width: 12.9px;
+  height: 6.5px;
+  font-size: 12.9px;
+  margin-bottom: 25.2px;
+}
+body footer .footer .row .border-footer ul li .location {
+  width: 12px;
+  height: 18px;
+  font-size: 18px;
+}
+body footer .footer .row .border-footer ul .mg-30 {
+  margin-top: 30px;
+}
+body footer .footer .row .border-footer .job-margin {
+  margin-bottom: 0;
+}
+body footer .footer .row .border-footer .free-margin {
+  margin-bottom: 0;
+}
+body footer .footer .row .border-footer .find-us-col {
+  margin-top: 18.715%;
+  /*18.715%; equal 60.5px; */
+}
+body footer .footer .row .border-footer img {
+  width: 94.79%;
+  height: 49px;
+  margin: 18px 0 39.5px 0;
+}
+body footer .footer .row .border-footer .last-footer-title {
+  margin: 0 0 15px 0;
+  color: #e4c800;
+}
+body footer .footer .row .border-footer span {
+  width: 15.2778%;
+  /* equal 220px */
+  height: 25px;
+  margin: 0 0 0 0;
+  /* 11.25 equal 162px */
+  padding: 0;
+  font-size: 0;
+}
+body footer .footer .row .border-footer span i {
+  color: #ffffff;
+}
+body footer .footer .row .border-footer span i:hover {
+  color: #e4c800;
+}
+body footer .footer .row .border-footer span .fa-linkedin-in {
+  width: 17px;
+  height: 17px;
+  font-size: 17px;
+  margin-right: 17.1px;
+  padding: 0.7px 0.3px 0.1px 0.3px;
+}
+body footer .footer .row .border-footer span .fa-youtube {
+  width: 14.8px;
+  height: 10.5px;
+  font-size: 14.8px;
+  margin-right: 18.1px;
+}
+body footer .footer .row .border-footer span .fa-instagram {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  margin-right: 18.3px;
+}
+body footer .footer .row .border-footer span .fa-twitter {
+  width: 14.3px;
+  height: 11.8px;
+  font-size: 14.3px;
+  margin-right: 22.4px;
+}
+body footer .footer .row .border-footer span .fa-facebook-f {
+  width: 7.5px;
+  height: 16.1px;
+  font-size: 16.1px;
+  margin-right: 0;
+}
+body footer .copy-right {
+  height: 35px;
+  color: #fff;
+  background-color: var(--copyright);
+  padding: 10px 0;
+}
+body footer .copy-right a {
+  width: 16.9444%;
+  height: 15px;
+  color: #ffffff;
+  font-family: OpenSans;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+  background-color: #223663;
+}
+body footer .copy-right p {
+  margin: 0;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 1049px) {
+  html body footer .footer {
+    height: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  html body footer .footer .row {
+    height: 100%;
+  }
+  html body footer .footer .row .border-footer {
+    height: 100%;
+    max-height: 265px;
+    border-left: none;
+    margin: 10px 0 10px 0;
+  }
+  html body footer .footer .row .border-footer ul .for-email-width {
+    width: 230px;
+  }
+  html body footer .footer .row .border-footer ul .titles-footer {
+    height: 22px;
+    color: #e4c800;
+    margin: 0 0 15px;
+    font-size: 16px;
+  }
+  html body footer .footer .row .border-footer ul li {
+    height: 15px;
+    font-size: 10px;
+  }
+  html body footer .footer .row .border-footer ul .for-iPad {
+    margin-bottom: 20px;
+  }
+  html body footer .footer .row .border-footer ul .first-col {
+    margin: 0 0 25.75% 0;
+    /* 25.75% equal 60.5px */
+  }
+  html body footer .footer .row .border-footer ul .find-us-col {
+    margin-top: 18.715%;
+    /*18.715%; equal 60.5px; */
+  }
+  html body footer .footer .row .border-footer ul .mg-30 {
+    margin-top: 20px;
+  }
+  html body footer .footer .row .border-footer ul a {
+    font-size: 10px;
+  }
+  html body footer .footer .row .border-footer img {
+    width: auto;
+    margin: 0 0 39.5px 0;
+  }
+  html body footer .footer .row .border-footer span .fa-linkedin-in {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-right: 6px;
+    padding: 0;
+  }
+  html body footer .footer .row .border-footer span .fa-youtube {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-right: 6px;
+  }
+  html body footer .footer .row .border-footer span .fa-instagram {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-right: 6px;
+  }
+  html body footer .footer .row .border-footer span .fa-twitter {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-right: 6px;
+  }
+  html body footer .footer .row .border-footer span .fa-facebook-f {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-right: 0;
+  }
+  html body footer .footer .row .border-footer .last-footer-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 6.159% 0;
+  }
+  html body footer .footer .row .horizontal-line {
+    background-color: #e4c800;
+  }
+}
+@media screen and (max-width: 667px) {
+  html body footer .footer {
+    height: 100%;
+  }
+  html body footer .footer .row {
+    height: 100%;
+  }
+  html body footer .footer .row .border-footer {
+    margin: 10px 0 10px 0;
+  }
+  html body footer .footer .row .border-footer .first-col {
+    margin: 0 0 16.5px 0;
+    /* 25.75% equal 60.5px */
+    margin-bottom: 16.5px;
+  }
+  html body footer .footer .row .border-footer .find-us-col {
+    margin-top: 24.5px;
+    /*18.715%; equal 60.5px; */
+  }
+  html body footer .footer .row .border-footer img {
+    width: auto;
+    /* margin: 10% 0 16.8133% 0; */
+    margin: 0 0 16.5px 0;
+  }
+  html body footer .footer .row .border-footer .last-footer-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  html body footer .footer .row .border-footer .icons a i {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  html body footer .footer .row .border-footer::before {
+    content: "";
+    display: none;
+  }
+  html body footer .footer .row .horizontal-line {
+    background-color: #e4c800;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

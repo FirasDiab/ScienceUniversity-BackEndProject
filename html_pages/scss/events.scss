@@ -1,0 +1,116 @@
+@import "variables";
+@import "fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .events-container {
+    margin-bottom: 80px;
+    .container {
+      .card-deck {
+        .card {
+          position: relative;
+          .card-img-top:hover {
+            opacity: 0.8;
+          }
+          .events-date {
+              position: absolute;
+              top: 10px;
+              right: 10.8px;
+              img {
+                  width: 75.2px;
+                  height: 71px;
+              }
+              .number-date {
+                  position: absolute;
+                  top: 29px;
+                  right: 25.6px;
+                  width: 22px;
+                  height: 19px;
+                  font-family: $main-font-Bold;
+                  font-size: 18px;
+                  font-weight: $font-bold;
+                  font-stretch: normal;
+                  font-style: normal;
+                  line-height: 1.06;
+                  letter-spacing: normal;
+                  color: $news-color;
+              }
+              .month-date {
+                  position: absolute;
+                  top: 44px;
+                  left: 17.1px;
+                  height: 19px;
+                  font-family: $main-font-SBold;
+                  font-size: 12px;
+                  font-weight: $font-Sbold;
+                  font-stretch: normal;
+                  font-style: normal;
+                  line-height: 1.58;
+                  letter-spacing: normal;
+                  color: $news-color;
+                  text-transform: capitalize;
+              }
+              .short-month {
+                  position: absolute;
+                  top: 44px;
+                  left: 24px;
+              }
+          }  
+          .card-body {
+            padding: 15px 20px;  
+            .events-header {
+              position: relative;
+              height: 23px;
+              margin: 0 15px 10px 0;
+              font-family: $main-font-normal;
+              font-size: 14px;
+              font-weight: $font-normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.64;
+              letter-spacing: normal;
+              color: $news-color;
+              padding: 0 15px 0 0;
+              span {
+                  font-size: 0;
+              }
+            }
+            .events-header::after {
+                content: "";
+                border: solid 1px #979797;
+                height: 19px;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            .events-desc {
+              height: 78px;
+              font-family: $main-font-normal;
+              font-size: 16px;
+              font-weight: $font-normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.63;
+              letter-spacing: normal;
+              color: #4a4a4a;
+              margin-bottom: 30px;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+            }
+            .last-desc {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }

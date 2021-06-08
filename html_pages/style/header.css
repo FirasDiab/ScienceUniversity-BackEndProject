@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "mainFontNormal";
+  src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontSBold";
+  src: url("../Fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mainFontBold";
+  src: url("../Fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "contactFont";
+  src: url("../Fonts/Raleway-Bold.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header .header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+}
+body header .header .logo-row {
+  padding: 0;
+}
+body header .header .logo-row .logo {
+  width: 139px;
+  margin: 13px 0;
+}
+body header .header .open-menu {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+body header .header .close-menu {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+body header .header .social-media {
+  padding: 25px 0;
+  text-align: right;
+}
+body header .header .social-media .icons {
+  width: 15.2778%;
+  /* equal 220px */
+  height: 25px;
+  margin: 25px 0 25px 68.1667%;
+  /* 11.25 equal 162px */
+  padding: 0;
+  font-size: 0;
+}
+body header .header .social-media .icons i {
+  width: 23px;
+  font-size: 25px;
+  margin: 0 10px 0 0;
+  background-color: transparent;
+  color: #b6b6b6;
+}
+body header .header .social-media .icons .fb {
+  margin-right: 0;
+}
+body header .header .social-media .icons .search {
+  width: 25px;
+  font-size: 25px;
+  margin: 0 0 0 40px;
+}
+body header .header .social-media .btn-search {
+  background-color: #021a4e;
+  color: #ffffff;
+}
+body header .header .social-media .btn-search:hover {
+  color: #e4c800;
+}
+body header .cont-bk {
+  background-color: #021a4e;
+}
+body header .navbar-container {
+  background-color: #021a4e;
+}
+body header .navbar-container .row .navbar-grid {
+  height: 39px;
+  padding: 10px 0;
+  background-color: #021a4e;
+  width: 100%;
+}
+body header .navbar-container .row .navbar-grid .navbar-section {
+  padding: 0;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul {
+  width: 91.6129%;
+  /* 59.1667 equal 852px */
+  margin: 0 4.1935% 0 4.1935%;
+  /* 20.4167 equal 294px */
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul li a {
+  height: 19px;
+  font-family: "mainFontSBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  text-transform: uppercase;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul li a:hover {
+  color: #e4c800;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul .About {
+  margin: 0 73.5px 0 0;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul .Academics {
+  margin: 0 72px 0 0;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul .Admissions {
+  margin: 0 65px 0 0;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul .International {
+  margin: 0 66.5px 0 0;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul .Events {
+  margin: 0 70px 0 0;
+}
+body header .navbar-container .row .navbar-grid .navbar-section .navbar-section1 ul .Contact-us {
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 1049px) {
+  html body .navbar-section .nav-small .logo-row .logo {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 834px) {
+  html body header .header {
+    display: none;
+  }
+  html body header .header .row .logo-row .logo {
+    width: 139px;
+    height: 48px;
+    margin-left: 20px;
+  }
+  html body header .header .row .social-media {
+    display: none;
+  }
+  html body header .navbar-container .row {
+    display: none;
+  }
+  html body header .navbar-container .row .navbar-grid {
+    display: none;
+  }
+  html body header .nav-small {
+    display: block !important;
+    max-width: 100%;
+    color: #ffffff;
+    padding: 8px 0;
+  }
+  html body header .nav-small .logo-row .logo {
+    width: 139px;
+    height: 48px;
+    margin: 5px 0;
+  }
+  html body header .nav-small button {
+    padding: 0;
+  }
+  html body header .nav-small button .fa-bars {
+    font-size: 35px;
+    color: #ffffff;
+  }
+  html body header .nav-small .navbar-section1 ul li .nav-link {
+    color: white;
+  }
+  html body header .nav-small .navbar-section1 ul li .nav-link:hover {
+    background-color: #ffffff;
+    color: #021a4e;
+  }
+  html body header .nav-small .navbar-section1 ul .icons-for-sm a i {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
